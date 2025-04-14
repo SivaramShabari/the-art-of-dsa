@@ -85,14 +85,6 @@ return Recurse(n, memo) ?? throw new ExistentialException("What even is 'n'?");
 
 ---
 
-## 🔗 Let's Connect
-
-- 🐙 GitHub: [your-username](https://github.com/your-username)
-- 💼 LinkedIn: [your-linkedin](https://linkedin.com/in/your-link)
-- 📬 Say hi: [you@example.com](mailto:you@example.com)
-
----
-
 > _“There are 10 types of people: those who understand binary and those who don't.”_  
 > — Probably me, during a coffee-fueled debug session.
 
