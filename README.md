@@ -24,33 +24,6 @@ LeetCode, HackerRank, random whiteboard napkins, and midnight thoughts.
 
 ✨ **Code Commentary** – Not just _what_, but the _why_ behind each line.  
 🧠 **Deep Dives** – Sometimes I go full "math monk" on problems. You'll find mini-essays on optimization, edge cases, and theory.  
-🎭 **Real Talk** – I document failures, facepalms, and breakthroughs alike.  
-💥 **Visuals & Debugging Tricks** – Diagrams, dry-run logs, and annotated code when it gets wild.
-
----
-
-## 📁 Structure
-
-```bash
-📂 DSA-Chronicles/
-│
-├── Arrays/
-├── Trees/
-├── Graphs/
-├── Recursion/
-├── DP/
-├── Philosophical-Math-Moments/
-└── README.md
-```
-
----
-
-## 🧙‍♂️ Sample Thought Process
-
-> 🗨️ *"Could this recursive DP solution be represented as a tree of state transitions… or maybe a matrix transformation?"*  
->  
-> _Yeah. I go there._
-
 ---
 
 ## 🧰 Tech Stack
