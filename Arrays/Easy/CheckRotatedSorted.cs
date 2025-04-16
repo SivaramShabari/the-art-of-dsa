@@ -1,16 +1,14 @@
-namespace Arrays
+namespace Arrays;
+public partial class Arrays
 {
-    public class CheckRotatedSorted
+    public bool Check(int[] nums)
     {
-        public bool Check(int[] nums)
-        {
-            var rotationCount = 0;
-            for (var i = 0; i < nums.Length - 1; i++)
-                if (nums[i] > nums[i + 1] && rotationCount++ > 0)
-                    return false;
+        var rotationCount = 0;
+        for (var i = 0; i < nums.Length - 1; i++)
+            if (nums[i] > nums[i + 1] && rotationCount++ > 0)
+                return false;
 
-            return rotationCount == 0 || nums[0] >= nums[^1];
-        }
+        return rotationCount == 0 || nums[0] >= nums[^1];
     }
 }
 

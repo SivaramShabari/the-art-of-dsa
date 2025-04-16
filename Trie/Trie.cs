@@ -20,8 +20,8 @@ public class Trie
                 currentNode = node;
             else
             {
-                currentNode[character] = new();
-                currentNode = currentNode[character];
+                currentNode.children[character] = new();
+                currentNode = currentNode.children[character];
             }
         }
         currentNode.isEndOfWord = true;
