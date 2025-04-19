@@ -1,5 +1,5 @@
 
-namespace Arrays;
+namespace TheArtOfDSA;
 public partial class Arrays
 {
     public static int SingleNumber(int[] nums)

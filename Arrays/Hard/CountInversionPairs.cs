@@ -1,4 +1,4 @@
-namespace Arrays;
+namespace TheArtOfDSA;
 public partial class Arrays
 {
     private const int MOD = 1_000_000_007;

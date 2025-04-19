@@ -1,4 +1,4 @@
-namespace Arrays;
+namespace TheArtOfDSA;
 public partial class Arrays
 {
     public bool Check(int[] nums)

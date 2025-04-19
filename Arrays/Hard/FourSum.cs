@@ -1,4 +1,4 @@
-namespace Arrays;
+namespace TheArtOfDSA;
 public partial class Arrays
 {
     public static IList<IList<int>> FourSum(int[] nums, int target)

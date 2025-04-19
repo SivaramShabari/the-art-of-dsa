@@ -1,4 +1,4 @@
-namespace Arrays;
+namespace TheArtOfDSA;
 public partial class Arrays
 {
     public static int[] MissingAndRepeatingNums(int[] nums)
