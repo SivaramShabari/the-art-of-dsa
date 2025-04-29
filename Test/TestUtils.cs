@@ -24,8 +24,9 @@ public static class TestUtils
             Pass(testName);
     }
 
-    private static void Pass(string testName)
+    private static void Pass(string testName, bool shouldPrintResult = false)
     {
+        if (!shouldPrintResult) return;
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"✅ {testName} passed.");
         Console.ResetColor();
@@ -33,8 +34,6 @@ public static class TestUtils
 
     private static void Fail(object expected, object actual, string testName)
     {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine($"❌ {testName} FAILED. Expected: {expected}, Got: {actual}");
-        Console.ResetColor();
+        throw new Exception($"Expected: {expected}, Got: {actual}");
     }
 }
